@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@emoji-mart/data':
     specifier: ^1.1.2
@@ -65,8 +69,8 @@ dependencies:
     specifier: ^29.5.0
     version: 29.5.0(@types/node@18.16.9)
   katex:
-    specifier: ^0.16.7
-    version: 0.16.7
+    specifier: ^0.16.10
+    version: 0.16.10
   nanoid:
     specifier: ^4.0.0
     version: 4.0.2
@@ -3982,8 +3986,8 @@ packages:
       object.assign: 4.1.4
     dev: true
 
-  /katex@0.16.7:
-    resolution: {integrity: sha512-Xk9C6oGKRwJTfqfIbtr0Kes9OSv6IFsuhFGc7tW4urlpMJtuh+7YhzU6YEG9n8gmWKcMAFzkp7nr+r69kV0zrA==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -4735,7 +4739,7 @@ packages:
       prop-types: ^15.8.1
       react: '>=15.3.2 <=18'
     dependencies:
-      katex: 0.16.7
+      katex: 0.16.10
       prop-types: 15.8.1
       react: 18.2.0
     dev: false
